@@ -16,8 +16,14 @@
     "require": {
         "php": ">=5.3.0",
         "symfony/framework-bundle": "~2.1",
-        "kriswallsmith/assetic": "~1.1"
+        "kriswallsmith/assetic": "dev-lessphp_import_css"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yeka/assetic"
+        }
+    ],
     "require-dev": {
         "symfony/twig-bundle": "~2.1",
         "symfony/console": "~2.1",
